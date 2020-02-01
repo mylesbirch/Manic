@@ -1,0 +1,64 @@
+// Light Side
+.p-light-side {
+  background: $cloud;
+  color: $charcoal;
+  --accent: #{$blue};
+  --shade1: #{$shadows_81};
+  --shade2: #{$shadows_54};
+  --shade3: #{$shadows_36};
+  --shade4: #{$shadows_18};
+  --shade5: #{$shadows_9};
+  --lighter: #{$white};
+  --default: #{$cloud};
+  --darker: #{$overcast};
+  --header: #{$lights_95};
+  --darker-header: #{$dark_lights_95};
+  --flatarea1: #{transparentize($charcoal, 0.94)};
+  --flatarea2: #{transparentize($charcoal, 0.91)};
+
+  // A custom vaiable for the palette mode button active
+  --palette-button: #{$shadows_36};
+
+  // transparent default for safari
+  --transparent-default: #{transparentize($cloud, 1)};
+}
+
+// Dark Side
+.p-dark-side {
+  background: $deepspace;
+  color: $overcast;
+  --accent: #{$lavender};
+  --shade1: #{$lights_81};
+  --shade2: #{$lights_54};
+  --shade3: #{$lights_36};
+  --shade4: #{$lights_18};
+  --shade5: #{$lights_9};
+  --lighter: #{$abyss};
+  --default: #{$deepspace};
+  --darker: #{$pitch};
+  --header: #{$shadows_95};
+  --darker-header: #{$dark_shadows_95};
+  --flatarea1: #{transparentize($overcast, 0.97)};
+  --flatarea2: #{transparentize($overcast, 0.91)};
+
+  // A custom vaiable for the palette mode button active
+  --palette-button: #{$lavender};
+
+  // transparent default for safari
+  --transparent-default: #{transparentize($deepspace, 1)};
+}
+
+// Palette Toggle Checkbox
+#palette-toggle {
+  display: none;
+}
+
+// Palette Provider Light
+.palette-provider {
+  @extend .p-light-side;
+}
+
+// Palette Provider Dark — Triggered by #palette-toggle
+#palette-toggle:checked ~ .palette-provider {
+  @extend .p-dark-side;
+}

@@ -1,0 +1,126 @@
+// ROOT FONT PROPERTIES
+// -------------------------------------
+
+:root {
+  font-family: Roboto, HelveticaNeue, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: greyscale;
+  font-size: 16px;
+  @media screen and (max-width: $break) {
+    font-size: 14px;
+  }
+}
+
+// DEFAULT TYPO STYLES
+// -------------------------------------
+
+h1 {
+  font-weight: normal;
+  font-size: 2em;
+  line-height: 1.4;
+  margin-top: 1.67em;
+  margin-bottom: 0.67em;
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1.5em;
+  line-height: 1.5;
+  margin-top: 1.83em;
+  margin-bottom: 0.6em; // 0.83em
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: normal; // 500
+  font-size: 1.17em;
+  line-height: 1.625;
+  margin-top: 2em;
+  margin-bottom: 0.3em; // 1em
+  font-weight: 500;
+}
+
+h4 {
+  font-weight: normal; // 500
+  font-size: 1em;
+  line-height: 1.625;
+  margin-top: 2.33em;
+  margin-bottom: 0.3em; // 1.33em
+  font-weight: 500;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 0.95em;
+  line-height: 1.625;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: 500;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 0.875em;
+  line-height: 1.625;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.625;
+  margin-top: 0em; // 1em
+  margin-bottom: 1.5em;
+  color: var(--shade1);
+}
+
+ul,
+ol {
+  padding-left: 27px;
+}
+
+li {
+  font-size: 1em;
+  line-height: 1.625;
+  color: var(--shade1);
+  padding-left: 9px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+table {
+  line-height: 1.625;
+}
+
+blockquote {
+  font-size: 1em;
+  line-height: 1.625;
+
+  background: var(--default);
+  // border-top: 1px solid var(--shade2);
+  // border-bottom: 1px solid var(--shade2);
+  border-left: 2px solid var(--shade2);
+  margin: 2em 0;
+  padding: 2em var(--gutter) 1em var(--gutter);
+
+  // &:hover {
+  //   border-color: var(--accent);
+  // }
+}
+
+figcaption {
+  font-size: 0.75em;
+  text-align: center;
+  color: var(--shade3);
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+
+label {
+  font-weight: 500;
+}

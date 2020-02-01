@@ -1,0 +1,75 @@
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+video {
+  display: block;
+  max-width: 100%;
+  vertical-align: bottom;
+  margin: auto;
+}
+
+hr {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 0.75em 1em;
+  color: var(--color);
+  background: var(--flatarea1);
+  margin: 0.5em 0 1em 0;
+  box-sizing: border-box;
+
+  &:hover,
+  &:focus {
+    background: var(--flatarea2);
+  }
+}
+
+textarea {
+  @extend input;
+  min-height: 180px;
+}
+
+table {
+  border-spacing: 0px;
+}
+
+button {
+  padding: 6px 18px;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.5px;
+
+  color: white;
+  background: hsl(216, 100, 50);
+  border: none;
+  box-sizing: border-box;
+  border-radius: 3px;
+
+  box-shadow: 0 0 2px 0 rgba(33, 35, 41, 0.09),
+    0 -1px 4px 0 rgba(33, 35, 41, 0.09), 0 3px 6px 0 rgba(33, 35, 41, 0.12);
+
+  cursor: pointer;
+
+  &:hover {
+    background: hsl(216, 100, 55);
+  }
+
+  &:active {
+    background: hsl(216, 100, 45);
+    box-shadow: 0 0 2px 0 rgba(33, 35, 41, 0.09),
+      0 -1px 2px 0 rgba(33, 35, 41, 0.09), 0 1px 2px 0 rgba(33, 35, 41, 0.27);
+  }
+}

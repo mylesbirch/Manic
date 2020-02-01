@@ -1,0 +1,67 @@
+$black: #000;
+$white: #fff;
+
+// Pen colors
+$red: #e81a17;
+$orange: #ff6600;
+$yellow: #ffce00;
+$chocolate: #774835;
+$magenta: #d900b5;
+$green: #00a854;
+$teal: #00a3a3;
+$oxford: #007138;
+$blue: #0066ff;
+$purple: #aa00ff;
+$indigo: #5100f5;
+$midnight: #004183;
+$overcast: #edeff3;
+$steel: #bdccd4;
+$concrete: #7f8c8d;
+$charcoal: #212329;
+$abyss: #1a1d21;
+$deepspace: #14161a;
+$pitch: #0a0b0d;
+$galaxy: #4c4cff;
+
+// Highlighter colors
+$nebula: #8a4cfc;
+$rose: #ff003c;
+$mango: #ffc200;
+$sunshine: #ffee00;
+$peach: #ffa969;
+$bloodorange: #ff6969;
+$pink: #ff9df9;
+$lime: #b2e35a;
+$toxic: #2ee689;
+$ocean: #29cccc;
+$ice: #57d3ff;
+$lavender: #ad8fff;
+$cosmic: #6565ff;
+$sky: #4ca2ff;
+$cloud: #f7f8fa;
+$silver: #dfeaf0;
+$stone: #b0c5c7;
+
+// Shadows,
+$shadows_3: transparentize($deepspace, 0.97);
+$shadows_9: transparentize($deepspace, 0.91);
+$shadows_18: transparentize($deepspace, 0.82);
+$shadows_27: transparentize($deepspace, 0.73);
+$shadows_36: transparentize($deepspace, 0.64);
+$shadows_54: transparentize($deepspace, 0.46);
+$shadows_81: transparentize($deepspace, 0.19);
+$shadows_72: transparentize($deepspace, 0.28);
+$shadows_95: transparentize($deepspace, 0.05);
+$dark_shadows_95: transparentize($pitch, 0.05);
+
+// Lights
+$lights_3: transparentize($cloud, 0.97);
+$lights_9: transparentize($cloud, 0.91);
+$lights_18: transparentize($cloud, 0.82);
+$lights_27: transparentize($cloud, 0.73);
+$lights_36: transparentize($cloud, 0.64);
+$lights_54: transparentize($cloud, 0.46);
+$lights_81: transparentize($cloud, 0.19);
+$lights_72: transparentize($cloud, 0.28);
+$lights_95: transparentize($cloud, 0.05);
+$dark_lights_95: transparentize($overcast, 0.05);

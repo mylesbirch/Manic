@@ -1,0 +1,9 @@
+$break: 660px;
+$max-width: 1320px;
+
+:root {
+  --gutter: 45px;
+  @media screen and (max-width: $break) {
+    --gutter: 18px;
+  }
+}
