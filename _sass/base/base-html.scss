@@ -1,5 +1,11 @@
 html {
   scroll-behavior: smooth;
+  background: url("/assets/imgs/paper-texture.png"),
+    radial-gradient(49% 132%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.04) 100%);
+  background-size: 50%;
+
+  /* Sketch doesnt export pattern fills at this point */
+  /* Sketch doesnt export pattern fills at this point */
 }
 
 img {
@@ -11,7 +17,6 @@ img {
 video {
   display: block;
   max-width: 100%;
-  vertical-align: bottom;
   margin: auto;
 }
 
