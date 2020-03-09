@@ -12,7 +12,7 @@ _I didn't think I'd make it to next Tuesday, let alone 30._{: style="color: red"
 
 I was as close to killing myself as a bloke who wasn't capable of killing himself could have been. I found myself in a tug of war between not wanting to live and not wanting to die. I found suicide purgatory. Life was constantly spiraling downwards because of the debilitating environment that surrounded me, because of guilt, pressure and unending anxiety, and this hopelessness acted as the catalyst for my suicidal thinking. If things had continued then I would have grabbed the cheque and checked the fuck out.
 
-In some ways this story reads more like a fairytale. But don’t expect to find any wizards, witches or rabbit holes, because they don’t exist. Instead, keep an eye out for rat holes. Long, dark motherfuckers that break your legs on the final drop. The kinds you can’t climb out of. The ones where you lose all sense of direction and slowly drown in a cesspool of shit, misery and loneliness.
+> <span class="diary__date">2/11/2002</span>In some ways this story reads more like a fairytale. But don’t expect to find any wizards, witches or rabbit holes, because they don’t exist. Instead, keep an eye out for rat holes. Long, dark motherfuckers that break your legs on the final drop. The kinds you can’t climb out of. The ones where you lose all sense of direction and slowly drown in a cesspool of shit, misery and loneliness.
 
 I had wake up anxiety, look in the mirror anxiety, family anxiety, can't work but gotta work anxiety. I was anxiety. I was manic anxious.
 

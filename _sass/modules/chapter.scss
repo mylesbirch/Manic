@@ -1,7 +1,15 @@
 .chapter__container {
   width: 100%;
-  max-width: 800px;
-  padding: 0 var(--gutter);
+  max-width: 700px;
+  padding: 72px var(--gutter) 108px var(--gutter);
   box-sizing: border-box;
   margin: auto;
+}
+
+.chapter__intro {
+  text-align: center;
+}
+
+.diary__date {
+  display: block;
 }

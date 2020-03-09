@@ -1,0 +1,28 @@
+.home__container {
+  min-height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  outline: 1px dashed blue;
+}
+
+.home__manic {
+  transform: translateX(-54px);
+}
+
+.home__scratch {
+  background: url("/assets/imgs/bg-scratch.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left center;
+}
+
+.home__anxious {
+  transform: translate(54px, -36px) rotate(-5deg);
+}
