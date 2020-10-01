@@ -116,11 +116,12 @@ h6 {
 
 p {
   font-family: adobe-text-pro;
-  font-size: 1.125rem; // 18px
+  text-align: justify;
+  font-size: 1.25rem; // 20px
   color: hsla(225, 30%, 15%, 0.85);
   line-height: 1.5; // 27px
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   padding-top: 0px;
   padding-bottom: 0px;
   letter-spacing: 0.2px;
@@ -132,7 +133,7 @@ blockquote p {
   font-family: felt-tip-roman;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.125rem; // 18px
+  font-size: 1.25rem; // 18px
   color: hsla(225, 30%, 15%, 0.85);
   line-height: 2; // 36px
   margin-top: 1em;
